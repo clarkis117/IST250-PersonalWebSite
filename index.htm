@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Template Page</title>
-		<link rel="stylesheet" href="/stylesheet.css" type="text/css" />
+<html lang="en">
+
+<head>
+	<title>LTUFD Home</title>
+	<link rel="stylesheet" href="stylesheet.css" type="text/css" />
 	
-	</head>
+	<!--[if lt IE 9]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
 <body>
 
-	<div class="header">
-		<img class="logo" src="ltufd_logo_enhance.gif" align="left" height="140" width="120" alt="Logan Township United Fire Department Logo, links to hoem page" />
-		<h1 style="margin-right: 50px">Logan Township United Fire Department</h1>
-	</div>
+	<header>
+		<div class="logo">
+		<a href="index.htm">
+			<img src="ltufd_logo_enhance.gif" height="140" width="120" alt="The image shows LTUFD's Station 18 with vehicles 1812, 1841, and 1851 half in, half out of their garage bays." />
+		</a>
+		</div>
+
+		<h1>Logan Township United Fire Department</h1>
+	</header>
+
 	<hr>
 
-	<div align="center" style="Background-color:#C00000; color:white; padding:20px;">
-		<h2>Hello</h2>
-	</div>
-	<hr>
-
-	<div align="center" style="Background-color:#C00000; color:white; padding:20px;">
-		
+	<nav>
 		<ul id="menu">
 			<li><a href="index.htm">Home</a></li>
 			<li><a href="news.htm">News</a></li>
@@ -27,6 +31,80 @@
 			<li><a href="about_us.htm">About Us</a></li>
 			<li><a href="contact_us.htm">Contact Us</a></li>
 		</ul>
-	</div>
+	</nav>
+
+	<hr>
+
+	<main>
+		<div class="centered_img">
+		<img src="homepagepic.gif" style="border: solid 2px black;" alt="The image shows LTUFD's Station 18 with vehicals 1812, 1841,">
+		</div>
+
+		<section>
+			<h2>PSA Message</h2>
+			<p>Remember in case of Emergency dial 911</p>
+		</section>
+		<section>
+			<h2>Recent News</h2>
+			<article>
+				<a href="newsitem1.htm">
+				<h3>The Department Plans Buys a New Ladder Truck</h3>
+				<p>Due to aging apparatus, the department is working to approved the purchase of a new fire response vehicle.</p>
+				</a>
+			</article>
+			<article>
+				<h3>News Item 2</h3>
+				<p>Brief description goes here</p>
+			</article>
+			<article>
+				<h3>News Item 3</h3>
+				<p>Brief description goes here</p>
+			</article>
+		</section>
+		<section>
+			<h2>Up Coming Events</h2>
+			<ul id="eventlist" class="sideways_event_list">
+				<li>
+					<article>
+						<h3><time>8-15-2015</time></h3>
+						<p>Brief description....</p>
+					</article>
+				</li>
+				<li>
+					<article>
+						<h3><time>8-15-2015</time></h3>
+						<p>Brief description....</p>
+					</article>
+				</li>
+				<li>
+					<article>
+						<h3><time>8-15-2015</time></h3>
+						<p>Brief description....</p>
+					</article>
+				</li>
+			</ul>
+		</section>
+	</main>
+
+	<hr>
+
+	<nav>
+		<ul id="menu">
+			<li><a href="index.htm">Home</a></li>
+			<li><a href="news.htm">News</a></li>
+			<li><a href="calender.htm">Calender</a></li>
+			<li><a href="about_us.htm">About Us</a></li>
+			<li><a href="contact_us.htm">Contact Us</a></li>
+		</ul>
+	</nav>
+
+
+
+	<footer>
+		<p>Copyright 2015, Logan Township United Fire Department</p>
+		<p>Webmaster: <a href="mailto:jrc5686@psu.edu">Joshua Clark</a></p>
+		<p>Last Modified: <time>2015-8-10</time></p>
+	</footer>
+
 </body>
 </html>

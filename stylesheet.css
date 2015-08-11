@@ -1,15 +1,48 @@
-.header {
-	background-color:#C00000;
-	color:white;
-	padding:20px;
-	font-family: Verdana;
-	font-weight: bold;
-	font-size: x-large;
-}
 
 .logo {
+	margin: auto;
+	display: block;
+	float: left;
+}
 
+/* http://mynag.kopiblog.com/2012/11/29/how-to-align-an-image-in-the-center-in-html-5-and-html-4/ */
+.centered_img {
+	display: block;
+	text-align: center;
+	margin:auto;
+}
 
+.autoimg { 
+	max-width: 60%;
+	height: auto;
+}
+
+.sideways_event_list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+
+.subtitle {
+	font-size: 12pt;
+	font-family: Arial, Georgia, Helvetica, sans-serif;
+	color:#000000;
+	text-align: left;
+}
+
+.description{
+	font-size: 14pt;
+	text-indent: 2%;
+	font-family: Arial, Georgia, Helvetica, sans-serif;
+	color:#000000;
+	text-align: left;
+}
+
+ul#eventlist li	 {
+	vertical-align: top;
+	display: inline-block;
 }
 
 ul#menu {
@@ -17,38 +50,164 @@ ul#menu {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	text-align: center
+	text-align: center;
 }
 
 ul#menu li {
 	vertical-align: top;
 	display: inline-block;
+	background-color: darkred;
+	color: white;
+	text-decoration: none;
+	border: 3px solid black;
 }
 
 ul#menu li a {
 
-	background-color: darkred;
-	color: white;
+	display: block;
+	width: 120px;
+	font-weight: bold;
+	color: Black;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 4px;
 	text-decoration: none;
-	border: 5px solid black;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 16px;
 }
 
 ul#menu li a:hover {
 	background-color: black;
+	color: white;
 } 
 
 ul#menu a:link, ul#menu a:visited {
-	display: block;
-	width: 120px;
-	font-weight: bold;
-	color: #FFFFFF;
-	background-color: #98bf21;
-	text-align: center;
-	padding: 4px;
-	text-decoration: none;
-	text-transform: uppercase;
+
 }
 
-a:hover, a:active {
-	background-color: #7A991A;
+.news_head {
+	max-width: 900px;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.news_list {
+	list-style: none;
+	margin: 5px auto 5px auto;
+	margin-left: 0;
+	padding-left: 0;
+
+}
+
+.news_page_nav {
+	text-decoration: none;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 24px;
+	color: Black;
+	text-align: center;
+}
+
+.news_page_back {
+	text-decoration: none;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 16px;
+	color: #0066FF;
+	text-align: center;
+}
+
+/* https://css-tricks.com/limit-html-width/ */
+html {
+	max-width: 1200px;
+	margin: 0 auto;
+	background: white;
+	position: relative;
+}
+
+section, article {
+	border:1px solid grey;
+	margin:5px;
+	padding:8px;
+	background-color: white;
+}
+
+header {
+	background-color:#C00000;
+	color:white;
+	padding:20px;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: x-large;
+	text-align: center;
+	vertical-align: middle;
+	border: solid 2px black;
+}
+
+h2 {
+	font-size: 18pt;
+	font-family: Arial, Georgia, Helvetica, sans-serif;
+	color:#000000;
+	font-weight: bold;
+	text-align: left;
+}
+
+h3	{
+	font-size: 16pt;
+	font-family: Arial, Georgia, Helvetica, sans-serif;
+	color:#000000;
+	font-weight: bold;
+	text-align: left;
+}
+
+nav {
+	Background-color:#C00000;
+	color:white;
+	padding:20px;
+	margin: 5px auto 5px auto;
+	border: solid 2px black;
+}
+
+main {
+	background-color: #BFBFBF;
+	margin: 5px auto 5px auto;
+	padding: 10px 0 10px 0;
+	border: solid 2px black;
+}
+
+main p {
+	font-size: 12pt;
+	font-family: Arial, Georgia, Helvetica, sans-serif;
+	color:#000000;
+	text-align: left;
+}
+
+footer {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	color: black;
+	vertical-align: auto;
+	text-align: center;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+}
+
+th {
+	text-align: left;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px;
+	color: black;
+} 
+
+td {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+	color: black;
 }
